@@ -1,0 +1,55 @@
+cff-version: 1.2.0
+message: >-
+  Si utiliza este software o cita su contenido, por favor use los
+  metadatos consignados a continuacion conforme al estandar Citation
+  File Format (CFF).
+title: >-
+  Plan de Respuesta a Incidentes de Ransomware para PYME Hondurena —
+  Trabajo Final de Master en Ciberseguridad Corporativa
+abstract: >-
+  Repositorio de codigo del componente tecnico del Plan de Respuesta
+  a Incidentes de Ransomware disenado para una PYME comercial hondurena
+  tipologica. Incluye cuatro scripts de automatizacion (Python, PowerShell,
+  Bash) que cubren deteccion temprana mediante reglas MITRE ATT&CK,
+  endurecimiento de estaciones Windows con tres perfiles graduados,
+  respuesta forense en Linux con cadena de custodia SHA-256, y verificacion
+  de integridad de respaldos bajo estrategia 3-2-1-1-0. Trabajo de naturaleza
+  propositiva enmarcado en el programa de Master en Ciberseguridad
+  Corporativa de UCAM / Structuralia, promocion 2026.
+authors:
+  - family-names: Juarez
+    given-names: Jorge
+    affiliation: >-
+      Universidad Catolica de Murcia (UCAM) / Structuralia —
+      Master en Ciberseguridad Corporativa
+type: software
+version: 1.0.0
+date-released: '2026-05-03'
+url: 'https://github.com/Laika2026/pfm-ransomware-pyme'
+repository-code: 'https://github.com/Laika2026/pfm-ransomware-pyme'
+license: MIT
+keywords:
+  - ransomware
+  - incident-response
+  - cybersecurity
+  - PYME
+  - Honduras
+  - MITRE-ATTACK
+  - SIEM
+  - Wazuh
+  - hardening
+  - backup-verification
+  - academic-research
+  - master-thesis
+preferred-citation:
+  type: thesis
+  title: >-
+    Plan de Respuesta a Incidentes de Ransomware para una PYME
+    Hondurena — Trabajo Final de Master en Ciberseguridad Corporativa
+  authors:
+    - family-names: Juarez
+      given-names: Jorge
+  year: 2026
+  institution:
+    name: Universidad Catolica de Murcia (UCAM) / Structuralia
+  thesis-type: 'Master Thesis'
