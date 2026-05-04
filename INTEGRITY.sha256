@@ -1,0 +1,18 @@
+# INTEGRITY.sha256
+# Hashes SHA-256 de los scripts del repositorio pfm-ransomware-pyme
+# Trabajo Final de Master en Ciberseguridad Corporativa, UCAM/Structuralia, 2026
+# Autor: Jorge Juarez | Licencia: MIT
+#
+# Verificacion en Linux/macOS:
+#   sha256sum -c INTEGRITY.sha256
+#
+# Verificacion en Windows PowerShell:
+#   Get-FileHash scripts\ransomware_detector\ransomware_detector.py -Algorithm SHA256
+#   Get-FileHash scripts\windows_hardening\Harden-Workstation.ps1 -Algorithm SHA256
+#   Get-FileHash scripts\incident_response_linux\incident_response.sh -Algorithm SHA256
+#   Get-FileHash scripts\backup_verifier\verify_backups.py -Algorithm SHA256
+#
+b8f49675b1342ccbc93f7b45cec93d75b57aead2ced0aca528ce4826aed0e982  scripts/ransomware_detector/ransomware_detector.py
+6381d2ad4bb0c6522706872cea7bed3dbbc76d80f9b501819cf3bf47927ecb40  scripts/windows_hardening/Harden-Workstation.ps1
+92676db2c65d20ee49b511d6260c28a493e8453fdb507873d2e4102e93a5e597  scripts/incident_response_linux/incident_response.sh
+89fc9aeefb714e85bf91fa315ea38ce1d5c417a9e2fa847ad468d1faafd4c614  scripts/backup_verifier/verify_backups.py
